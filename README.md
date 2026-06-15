@@ -87,18 +87,22 @@ Contains:
 
 
 ### 📈 Key Findings and Insights
+
 🔹 🧠 Prompt Analysis
-Information retrieval and question-answering prompts were among the most common prompt types.
-Users frequently asked explanatory and descriptive questions.
+ - Information retrieval and question-answering prompts were among the most common prompt types.
+ - Users frequently asked explanatory and descriptive questions.
+
 🔹 ☁️ Word Cloud Insights
-Common prompt keywords included: explain, summarize, write, create, define
-These keywords reflected strong interest in content generation and learning tasks.
+ - Common prompt keywords included: explain, summarize, write, create, define
+ - These keywords reflected strong interest in content generation and learning tasks.
+
 🔹 📖 Readability Insights
-Most ChatGPT responses fell into the Easy and Medium readability categories.
-Responses were generally designed to be understandable and user-friendly.
+ - Most ChatGPT responses fell into the Easy and Medium readability categories.
+ - Responses were generally designed to be understandable and user-friendly.
+   
 🔹 📏 Prompt Length Insights
-Longer prompts often generated more detailed responses.
-Weak correlation observed between prompt length and readability complexity.
-#### 📝 Response Verbosity
-ChatGPT responses contained varying sentence lengths depending on prompt type.
-Detailed prompts generally produced more verbose outputs.
+ - Longer prompts often generated more detailed responses.
+ - Weak correlation observed between prompt length and readability complexity.
+🔹 📝 Response Verbosity
+ - ChatGPT responses contained varying sentence lengths depending on prompt type.
+ - Detailed prompts generally produced more verbose outputs.
