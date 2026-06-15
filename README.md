@@ -26,7 +26,6 @@ This project analyzes ChatGPT prompts and responses to uncover valuable insights
 
 ---
 
-
 ## 🛠️ Technologies Used
  - Python(Pandas, NumPy, Matplotlib, Seaborn), Jupyter Notebook, SQL Server
 
@@ -37,7 +36,6 @@ The dataset used in this project:
  - Alpaca GPT-4 Dataset
  - Loaded using Hugging Face datasets library
  - Dataset Features
-   
 Contains:
  - instruction
  - input
@@ -48,95 +46,53 @@ Contains:
  
 ## 📊 Steps and Workflow
 🔹 1. Data Collection
- - Loaded dataset using Hugging Face datasets library.  - Converted dataset into Pandas DataFrame.  - Explored dataset structure and records
+ - Loaded dataset using Hugging Face datasets library.
+ - Converted dataset into Pandas DataFrame.
+ - Explored dataset structure and records
 🔹 2. Data Understanding
- - Performed initial dataset exploration.  - Checked dataset shape and columns.  - Analyzed prompt and response structure. - Explored missing values. e.         Generated descriptive statistics
+ - Performed initial dataset exploration.
+ - Checked dataset shape and columns.
+ - Analyzed prompt and response structure.
+ - Explored missing values.
+ - Generated descriptive statistics
 🔹 3. Data Cleaning & Preprocessing
- - a. Removed unwanted characters using Regex. b. Converted text to lowercase. c. Removed stopwords using NLTK. d. Cleaned prompt text for NLP analysis
+ - Removed unwanted characters using Regex.
+ - Converted text to lowercase.
+ - Removed stopwords using NLTK.
+ - Cleaned prompt text for NLP analysis
 🔹 4. Word Cloud Analysis
- - a. Generated Word Clouds to identify. b. Most frequently used prompt words. c. Common user query patterns. d.High-frequency keywords
+ - Generated Word Clouds to identify.
+ - Most frequently used prompt words.
+ - Common user query patterns.
+ - High-frequency keywords
 🔹 5. Prompt Type Analysis
- - a.Categorized prompts into multiple categories such as. b.Information Retrieval. c. Summarization. d. Coding. e. Translation. f. Creative Writing
-   g. Question Answering. h. Analyzed the distribution of different prompt types used by users.
-🔹 6. Readability Analysis
+ - Categorized prompts into multiple categories such as.
+ - Information Retrieval.
+ - Summarization.
+ - Coding.
+ - Translation.
+ - Creative Writing
+ - Question Answering.
+ - Analyzed the distribution of different prompt types used by users.
+🔹 6. Data Visualization
+   Created visualizations including: Word Clouds, Bar Charts, Pie Charts, Scatter Plots, Boxplots, Regression Plots, Correlation Analysis Charts
 
-Used TextStat to calculate:
+---
 
-Flesch Reading Ease Score
-Readability levels of ChatGPT responses
 
-Classified responses into:
-
-Very Easy
-Easy
-Medium
-Difficult
-🔹 7. Prompt Length vs Response Complexity
-
-Analyzed:
-
-Relationship between prompt length and readability score
-Correlation between prompt size and response complexity
-Impact of detailed prompts on generated responses
-
-Performed:
-
-Correlation analysis
-Regression analysis
-Scatter plot visualization
-🔹 8. Response Verbosity Analysis
-
-Measured:
-
-Sentence count
-Word count
-Words per sentence
-
-Analyzed how verbose ChatGPT responses are across different prompt types.
-
-🔹 9. Context-Based Analysis
-
-Analyzed whether additional context improves ChatGPT responses by comparing:
-
-Response readability
-Output length
-Average response quality
-
-Compared:
-
-Prompts with extra context
-Prompts without extra context
-🔹 10. Data Visualization
-
-Created visualizations including:
-
-Word Clouds
-Bar Charts
-Pie Charts
-Scatter Plots
-Boxplots
-Regression Plots
-Correlation Analysis Charts
-📈 Key Findings and Insights
-🧠 Prompt Analysis
+### 📈 Key Findings and Insights
+#### 🧠 Prompt Analysis
 Information retrieval and question-answering prompts were among the most common prompt types.
 Users frequently asked explanatory and descriptive questions.
-☁️ Word Cloud Insights
-Common prompt keywords included:
-explain
-summarize
-write
-create
-define
-
+#### ☁️ Word Cloud Insights
+Common prompt keywords included: explain, summarize, write, create, define
 These keywords reflected strong interest in content generation and learning tasks.
-
-📖 Readability Insights
+#### 📖 Readability Insights
 Most ChatGPT responses fell into the Easy and Medium readability categories.
 Responses were generally designed to be understandable and user-friendly.
-📏 Prompt Length Insights
+#### 📏 Prompt Length Insights
 Longer prompts often generated more detailed responses.
 Weak correlation observed between prompt length and readability complexity.
-📝 Response Verbosity
+#### 📝 Response Verbosity
 ChatGPT responses contained varying sentence lengths depending on prompt type.
 Detailed prompts generally produced more verbose outputs.
