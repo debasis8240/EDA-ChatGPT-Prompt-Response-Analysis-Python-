@@ -12,7 +12,8 @@ The analysis includes:
  - Word Cloud Visualization
  - Statistical & Correlation Analysis
 
-[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDMQ6D2iQluAzNZvy-aA_Il95nGBeilYvmImc0wrErLQ&s=10](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq1LT5YnAGhAe4fFatU36lCWEg8Bnm0Qx81cHOBBQBNw&s=10)
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/d2491b96-6869-46eb-b829-4a8b792fcd70" />
+
 
 ---
 
