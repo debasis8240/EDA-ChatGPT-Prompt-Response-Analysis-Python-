@@ -48,9 +48,9 @@ Contains:
  
 ## 📊 Steps and Workflow
 🔹 1. Data Collection
- - a.Loaded dataset using Hugging Face datasets library. b. Converted dataset into Pandas DataFrame, c. Explored dataset structure and records
+ - Loaded dataset using Hugging Face datasets library.  - Converted dataset into Pandas DataFrame.  - Explored dataset structure and records
 🔹 2. Data Understanding
- - a. Performed initial dataset exploration. b. Checked dataset shape and columns. c. Analyzed prompt and response structure.  d. Explored missing values. e.         Generated descriptive statistics
+ - Performed initial dataset exploration.  - Checked dataset shape and columns.  - Analyzed prompt and response structure. - Explored missing values. e.         Generated descriptive statistics
 🔹 3. Data Cleaning & Preprocessing
  - a. Removed unwanted characters using Regex. b. Converted text to lowercase. c. Removed stopwords using NLTK. d. Cleaned prompt text for NLP analysis
 🔹 4. Word Cloud Analysis
