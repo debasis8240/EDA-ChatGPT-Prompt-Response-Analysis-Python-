@@ -45,26 +45,31 @@ Contains:
 
  
 ## 📊 Steps and Workflow
+
 🔹 1. Data Collection
  - Loaded dataset using Hugging Face datasets library.
  - Converted dataset into Pandas DataFrame.
  - Explored dataset structure and records
+   
 🔹 2. Data Understanding
  - Performed initial dataset exploration.
  - Checked dataset shape and columns.
  - Analyzed prompt and response structure.
  - Explored missing values.
  - Generated descriptive statistics
+   
 🔹 3. Data Cleaning & Preprocessing
  - Removed unwanted characters using Regex.
  - Converted text to lowercase.
  - Removed stopwords using NLTK.
  - Cleaned prompt text for NLP analysis
+   
 🔹 4. Word Cloud Analysis
  - Generated Word Clouds to identify.
  - Most frequently used prompt words.
  - Common user query patterns.
  - High-frequency keywords
+   
 🔹 5. Prompt Type Analysis
  - Categorized prompts into multiple categories such as.
  - Information Retrieval.
@@ -74,6 +79,7 @@ Contains:
  - Creative Writing
  - Question Answering.
  - Analyzed the distribution of different prompt types used by users.
+   
 🔹 6. Data Visualization
    Created visualizations including: Word Clouds, Bar Charts, Pie Charts, Scatter Plots, Boxplots, Regression Plots, Correlation Analysis Charts
 
@@ -81,16 +87,16 @@ Contains:
 
 
 ### 📈 Key Findings and Insights
-#### 🧠 Prompt Analysis
+🔹 🧠 Prompt Analysis
 Information retrieval and question-answering prompts were among the most common prompt types.
 Users frequently asked explanatory and descriptive questions.
-#### ☁️ Word Cloud Insights
+🔹 ☁️ Word Cloud Insights
 Common prompt keywords included: explain, summarize, write, create, define
 These keywords reflected strong interest in content generation and learning tasks.
-#### 📖 Readability Insights
+🔹 📖 Readability Insights
 Most ChatGPT responses fell into the Easy and Medium readability categories.
 Responses were generally designed to be understandable and user-friendly.
-#### 📏 Prompt Length Insights
+🔹 📏 Prompt Length Insights
 Longer prompts often generated more detailed responses.
 Weak correlation observed between prompt length and readability complexity.
 #### 📝 Response Verbosity
